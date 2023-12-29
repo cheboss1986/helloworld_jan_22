@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/cheboss1986/helloworld_pipeline.git'
+                git branch: 'main', url: 'https://github.com/cheboss1986/helloworld_jan_22.git'
             }
         }
         stage('Code Build') {
